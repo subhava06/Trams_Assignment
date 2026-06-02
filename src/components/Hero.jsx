@@ -79,7 +79,7 @@ function Hero() {
             />
           </svg>
 
-          <h1 className="font-heading text-center leading-tight font-semibold text-[48px] sm:text-[70px] lg:text-[96px]">
+          <h1 className="heading-font text-center leading-tight font-semibold text-[48px] sm:text-[70px] lg:text-[96px]">
             {words.map((word, index) => {
               let classes = "";
 
