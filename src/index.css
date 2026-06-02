@@ -90,3 +90,12 @@ body{
   width:100%;
 }
 
+.service-row{
+  transition:all .35s ease;
+}
+
+.service-row:hover{
+  background:#f7f7f7;
+  transform:translateY(-3px);
+}
+
