@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -60,7 +59,9 @@ body{
 .avatar{
   border-radius:9999px;
   object-fit:cover;
-  box-shadow:0 10px 30px rgba(0,0,0,0.12);
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.08),
+  0 4px 10px rgba(0,0,0,.04);
 }
 
 .service-row{
