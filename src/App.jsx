@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center text-5xl font-bold">
-      Elementum
+    <div className="overflow-hidden">
+      <Navbar />
+      <Hero />
     </div>
   );
 }
