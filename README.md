@@ -1,16 +1,219 @@
-# React + Vite
+# Elementum – Creative Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive creative agency landing page built with **React, Vite, Tailwind CSS, and Framer Motion**.
 
-Currently, two official plugins are available:
+This project was developed as part of a frontend internship assignment focused on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Pixel-perfect UI implementation
+* Responsive design
+* Clean component architecture
+* Animations and interactions
+* Modern React development practices
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **Live Website:** https://elementum-agency.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 **GitHub Repository:** https://github.com/subhava06/Trams_Assignment
+
+---
+
+## 📸 Screenshots
+
+### Hero Section
+
+![Hero Section](public/1.png)
+
+---
+
+### About Section
+
+![About Section](./public/3.png)
+
+---
+
+### Services Section
+
+![Services Section](./public/5.png)
+
+---
+
+### Testimonials Section
+
+![Testimonials Section](./public/7.png)
+
+---
+
+### Newsletter Section
+
+![Newsletter Section](./public/8.png)
+
+---
+
+### Footer Section
+
+![Footer Section](./public/8.png)
+
+---
+
+## ✨ Features
+
+### Responsive Design
+
+* Mobile First
+* Tablet Optimized
+* Desktop Optimized
+
+### Modern UI
+
+* Creative agency landing page
+* Custom highlights
+* Decorative SVG elements
+* Modern typography
+
+### Animations
+
+* Hero text stagger animations
+* Scroll-triggered section animations
+* Floating avatars
+* Hover interactions
+* Smooth transitions
+
+### Reusable Components
+
+* Navbar
+* Hero
+* About
+* Services
+* Testimonials
+* Newsletter
+* Footer
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* Tailwind CSS
+* Framer Motion
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Testimonials.jsx
+│   ├── Newsletter.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/subhava06/Trams_Assignment.git
+```
+
+Move into the project:
+
+```bash
+cd Trams_Assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+The project is deployed on Vercel.
+
+```bash
+vercel
+```
+
+Production deployment:
+
+```bash
+vercel --prod
+```
+
+---
+
+## 🎯 Assignment Objectives Covered
+
+* Responsive UI Development
+* React Component Architecture
+* Tailwind CSS Styling
+* Framer Motion Animations
+* Accessibility Considerations
+* Clean Project Structure
+* Deployment to Production
+
+---
+
+## 👨‍💻 Author
+
+**Subhava Ojha**
+
+Frontend Developer | Flutter Developer | React Learner
+
+GitHub: https://github.com/subhava06
+
+---
+
+## 📄 License
+
+This project is intended for educational and evaluation purposes.
