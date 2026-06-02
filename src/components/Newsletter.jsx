@@ -1,84 +1,30 @@
-function Footer() {
+function Newsletter() {
   return (
-    <footer className="bg-mint pb-12">
+    <section className="bg-[#EAF4E6] py-24">
+      <div className="section-container text-center">
+        <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          Subscribe to our newsletter
+        </h2>
 
-      <div className="section-container">
+        <p className="text-gray-600 mb-8 max-w-xl mx-auto">
+          Get the latest updates, insights and creative ideas directly
+          in your inbox.
+        </p>
 
-        <hr className="border-gray-400 mb-16" />
+        <div className="flex flex-col md:flex-row justify-center gap-4 max-w-xl mx-auto">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="px-5 py-4 rounded-full border border-gray-300 flex-1 outline-none"
+          />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
-
-          <div>
-            <h3 className="font-semibold text-xl mb-6">
-              Company
-            </h3>
-
-            <ul className="space-y-4 text-gray-700">
-              <li>Home</li>
-              <li>Studio</li>
-              <li>Service</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-xl mb-6">
-              Terms & Policies
-            </h3>
-
-            <ul className="space-y-4 text-gray-700">
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Explore</li>
-              <li>Accessibility</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-xl mb-6">
-              Follow Us
-            </h3>
-
-            <ul className="space-y-4 text-gray-700">
-              <li>Instagram</li>
-              <li>LinkedIn</li>
-              <li>Youtube</li>
-              <li>Twitter</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-xl mb-6">
-              Contact
-            </h3>
-
-            <ul className="space-y-4 text-gray-700">
-              <li>
-                1498 W Fulton St,
-                <br />
-                Chicago, IL 60607
-              </li>
-
-              <li>
-                (123) 456-7890
-              </li>
-
-              <li>
-                info@elementum.com
-              </li>
-            </ul>
-          </div>
-
+          <button className="bg-black text-white px-8 py-4 rounded-full">
+            Subscribe
+          </button>
         </div>
-
-        <div className="text-center mt-20 text-sm text-gray-600">
-          ©2023 Elementum. All rights reserved.
-        </div>
-
       </div>
-
-    </footer>
+    </section>
   );
 }
 
-export default Footer;
+export default Newsletter;

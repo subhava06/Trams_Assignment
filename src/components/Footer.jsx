@@ -1,7 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-mint pb-12">
-
+    <footer className="bg-[#EAF4E6] pb-12">
       <div className="section-container">
 
         <hr className="border-gray-400 mb-16" />
@@ -59,13 +58,9 @@ function Footer() {
                 Chicago, IL 60607
               </li>
 
-              <li>
-                (123) 456-7890
-              </li>
+              <li>(123) 456-7890</li>
 
-              <li>
-                info@elementum.com
-              </li>
+              <li>info@elementum.com</li>
             </ul>
           </div>
 
@@ -76,7 +71,6 @@ function Footer() {
         </div>
 
       </div>
-
     </footer>
   );
 }
